@@ -6,7 +6,6 @@ import { useNavigate } from 'react-router-dom';
 function Profile() {
   const navigate = useNavigate();
   const [email, setEmail] = useState('');
-  const [name, setName] = useState('');
   const [orders, setOrders] = useState([]);
   const [searched, setSearched] = useState(false);
   const [message, setMessage] = useState('');
